@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="100%" height="100%" style="background:#ffffff; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1550 1140" width="100%" height="100%" style="background:#ffffff; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1971c2"/>
@@ -12,125 +12,125 @@
   </defs>
 
   <!-- LOKÁLNA ZÓNA: Pozadie -->
-  <rect x="20" y="20" width="1160" height="660" rx="10" fill="#f8f9fa" stroke="#ced4da" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <text x="40" y="45" font-size="13" font-weight="700" fill="#495057" letter-spacing="0.5">🔒 LOCAL BIOBANK INFRASTRUCTURE (On-Premises / Hospital Firewall)</text>
+  <rect x="25" y="25" width="1500" height="880" rx="14" fill="#f8f9fa" stroke="#ced4da" stroke-width="2" stroke-dasharray="8,6"/>
+  <text x="50" y="58" font-size="18" font-weight="700" fill="#495057" letter-spacing="0.5">🔒 LOCAL BIOBANK INFRASTRUCTURE (On-Premises / Hospital Firewall)</text>
 
   <!-- 1. DATA SOURCES -->
-  <text x="40" y="75" font-size="11" font-weight="700" fill="#868e96" letter-spacing="0.5">LOCAL DATA SOURCES</text>
+  <text x="50" y="98" font-size="15" font-weight="700" fill="#868e96" letter-spacing="0.5">LOCAL DATA SOURCES</text>
 
   <!-- HIS / EHR -->
-  <rect x="40" y="90" width="160" height="52" rx="6" fill="#ffe3e3" stroke="#ffa8a8" stroke-width="1.5"/>
-  <text x="50" y="112" font-size="12" font-weight="700" fill="#c92a2a">HIS / EHR</text>
-  <text x="50" y="128" font-size="10.5" fill="#a61e4d">Clinical data</text>
+  <rect x="50" y="115" width="210" height="72" rx="8" fill="#ffe3e3" stroke="#ffa8a8" stroke-width="2"/>
+  <text x="65" y="145" font-size="17" font-weight="700" fill="#c92a2a">HIS / EHR</text>
+  <text x="65" y="169" font-size="14.5" fill="#a61e4d">Clinical data</text>
 
   <!-- PACS -->
-  <rect x="40" y="155" width="160" height="52" rx="6" fill="#d3f9d8" stroke="#8ce99a" stroke-width="1.5"/>
-  <text x="50" y="177" font-size="12" font-weight="700" fill="#2b8a3e">PACS</text>
-  <text x="50" y="193" font-size="10.5" fill="#2f9e44">Radiology (CT / MRI)</text>
+  <rect x="50" y="205" width="210" height="72" rx="8" fill="#d3f9d8" stroke="#8ce99a" stroke-width="2"/>
+  <text x="65" y="235" font-size="17" font-weight="700" fill="#2b8a3e">PACS</text>
+  <text x="65" y="259" font-size="14.5" fill="#2f9e44">Radiology (CT / MRI)</text>
 
   <!-- File System -->
-  <rect x="40" y="220" width="160" height="52" rx="6" fill="#ffe8cc" stroke="#ffd8a8" stroke-width="1.5"/>
-  <text x="50" y="242" font-size="12" font-weight="700" fill="#d9480f">File System</text>
-  <text x="50" y="258" font-size="10.5" fill="#e8590c">Genomics (Seq data)</text>
+  <rect x="50" y="295" width="210" height="72" rx="8" fill="#ffe8cc" stroke="#ffd8a8" stroke-width="2"/>
+  <text x="65" y="325" font-size="17" font-weight="700" fill="#d9480f">File System</text>
+  <text x="65" y="349" font-size="14.5" fill="#e8590c">Genomics (Seq data)</text>
 
   <!-- WSI Storage -->
-  <rect x="40" y="285" width="160" height="52" rx="6" fill="#fff9db" stroke="#ffe066" stroke-width="1.5"/>
-  <text x="50" y="307" font-size="12" font-weight="700" fill="#f08c00">WSI Storage</text>
-  <text x="50" y="323" font-size="10.5" fill="#e67700">Pathology images</text>
+  <rect x="50" y="385" width="210" height="72" rx="8" fill="#fff9db" stroke="#ffe066" stroke-width="2"/>
+  <text x="65" y="415" font-size="17" font-weight="700" fill="#f08c00">WSI Storage</text>
+  <text x="65" y="439" font-size="14.5" fill="#e67700">Pathology images</text>
 
-  <!-- Šípky zo zdrojov do Configu -->
-  <line x1="200" y1="213" x2="238" y2="213" stroke="#868e96" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- Šípka zo zdrojov do Configu -->
+  <line x1="260" y1="285" x2="305" y2="285" stroke="#868e96" stroke-width="3" marker-end="url(#arrow)"/>
 
   <!-- 2. DECLARATIVE CONFIG -->
-  <rect x="245" y="160" width="165" height="108" rx="6" fill="#ffffff" stroke="#1971c2" stroke-width="1.5"/>
-  <rect x="245" y="160" width="165" height="24" rx="6" fill="#1971c2"/>
-  <text x="255" y="176" font-size="11" font-weight="700" fill="#ffffff">⚙️ Declarative Config</text>
-  <text x="255" y="200" font-size="10" font-weight="600" fill="#212529">• Data storage paths</text>
-  <text x="255" y="217" font-size="10" font-weight="600" fill="#212529">• Local identifiers</text>
-  <text x="255" y="234" font-size="10" font-weight="600" fill="#212529">• Access credentials</text>
-  <text x="255" y="251" font-size="10" font-weight="600" fill="#212529">• Biobank metadata</text>
+  <rect x="315" y="195" width="225" height="180" rx="8" fill="#ffffff" stroke="#1971c2" stroke-width="2"/>
+  <rect x="315" y="195" width="225" height="36" rx="8" fill="#1971c2"/>
+  <text x="330" y="220" font-size="15" font-weight="700" fill="#ffffff">⚙️ Declarative Config</text>
+  <text x="330" y="255" font-size="14.5" font-weight="600" fill="#212529">• Data storage paths</text>
+  <text x="330" y="282" font-size="14.5" font-weight="600" fill="#212529">• Local identifiers</text>
+  <text x="330" y="309" font-size="14.5" font-weight="600" fill="#212529">• Access credentials</text>
+  <text x="330" y="336" font-size="14.5" font-weight="600" fill="#212529">• Biobank metadata</text>
 
-  <line x1="410" y1="213" x2="453" y2="213" stroke="#1971c2" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="540" y1="285" x2="585" y2="285" stroke="#1971c2" stroke-width="3" marker-end="url(#arrow)"/>
 
   <!-- 3. DOCKER PACKAGE (ENGINE) -->
-  <rect x="460" y="55" width="695" height="605" rx="8" fill="#e7f5ff" stroke="#339af0" stroke-width="2"/>
-  <rect x="460" y="55" width="310" height="26" rx="6" fill="#339af0"/>
-  <text x="475" y="73" font-size="12" font-weight="700" fill="#ffffff">📦 Docker Package: Metadata Orchestration Engine</text>
+  <rect x="595" y="70" width="905" height="810" rx="12" fill="#e7f5ff" stroke="#339af0" stroke-width="2.5"/>
+  <rect x="595" y="70" width="460" height="38" rx="10" fill="#339af0"/>
+  <text x="615" y="96" font-size="16" font-weight="700" fill="#ffffff">📦 Docker Package: Metadata Orchestration Engine</text>
 
   <!-- KROK 1: Metadata Ingestion -->
-  <rect x="485" y="95" width="510" height="52" rx="5" fill="#ffffff" stroke="#adb5bd" stroke-width="1"/>
-  <text x="500" y="116" font-size="12" font-weight="700" fill="#1971c2">1. Metadata Ingestion</text>
-  <text x="500" y="133" font-size="10.5" fill="#495057">Connects to local data sources containing raw, structured and unstructured metadata</text>
+  <rect x="625" y="125" width="700" height="74" rx="8" fill="#ffffff" stroke="#adb5bd" stroke-width="1.5"/>
+  <text x="645" y="153" font-size="16" font-weight="700" fill="#1971c2">1. Metadata Ingestion</text>
+  <text x="645" y="179" font-size="14" fill="#495057">Connects to local data sources containing raw, structured and unstructured metadata</text>
 
-  <line x1="740" y1="147" x2="740" y2="164" stroke="#1971c2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="975" y1="199" x2="975" y2="217" stroke="#1971c2" stroke-width="2.5" marker-end="url(#arrow)"/>
 
   <!-- KROK 2: AI-Driven Attribute Extraction -->
-  <rect x="485" y="165" width="510" height="52" rx="5" fill="#ffffff" stroke="#adb5bd" stroke-width="1"/>
-  <text x="500" y="186" font-size="12" font-weight="700" fill="#1971c2">2. AI-Driven Attribute Extraction</text>
-  <text x="500" y="203" font-size="10.5" fill="#495057">LLM scans raw source metadata to identify and extract attributes to fulfil schema</text>
+  <rect x="625" y="219" width="700" height="74" rx="8" fill="#ffffff" stroke="#adb5bd" stroke-width="1.5"/>
+  <text x="645" y="247" font-size="16" font-weight="700" fill="#1971c2">2. AI-Driven Attribute Extraction</text>
+  <text x="645" y="273" font-size="14" fill="#495057">LLM scans raw source metadata to identify and extract attributes to fulfil schema</text>
 
-  <line x1="740" y1="217" x2="740" y2="234" stroke="#1971c2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="975" y1="293" x2="975" y2="311" stroke="#1971c2" stroke-width="2.5" marker-end="url(#arrow)"/>
 
   <!-- KROK 3: Source-Specific Metadata APIs / DBs -->
-  <rect x="485" y="235" width="510" height="64" rx="5" fill="#ffffff" stroke="#adb5bd" stroke-width="1"/>
-  <text x="500" y="256" font-size="12" font-weight="700" fill="#1971c2">3. Source-Specific Metadata APIs / Internal DBs</text>
-  <text x="500" y="272" font-size="10.5" fill="#495057">Stores extracted intermediate metadata into modular APIs/databases</text>
-  <text x="500" y="287" font-size="10" font-weight="600" fill="#495057">[ Clinical API ]  [ Radio API ]  [ Seq API ]  [ WSI API ]</text>
+  <rect x="625" y="313" width="700" height="92" rx="8" fill="#ffffff" stroke="#adb5bd" stroke-width="1.5"/>
+  <text x="645" y="341" font-size="16" font-weight="700" fill="#1971c2">3. Source-Specific Metadata APIs / Internal DBs</text>
+  <text x="645" y="365" font-size="14" fill="#495057">Stores extracted intermediate metadata into modular APIs/databases</text>
+  <text x="645" y="388" font-size="14" font-weight="600" fill="#343a40">[ Clinical API ]   [ Radio API ]   [ Seq API ]   [ WSI API ]</text>
 
-  <line x1="740" y1="299" x2="740" y2="316" stroke="#1971c2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="975" y1="405" x2="975" y2="423" stroke="#1971c2" stroke-width="2.5" marker-end="url(#arrow)"/>
 
   <!-- KROK 4: Semantic Normalisation & Ontology Mapping -->
-  <rect x="485" y="318" width="510" height="74" rx="5" fill="#ffffff" stroke="#adb5bd" stroke-width="1"/>
-  <text x="500" y="339" font-size="12" font-weight="700" fill="#1971c2">4. AI-Driven Semantic Normalisation &amp; Ontology Mapping</text>
-  <text x="500" y="356" font-size="10.5" fill="#495057">LLM processes extracted attributes, handles local dialects/abbreviations,</text>
-  <text x="500" y="371" font-size="10.5" fill="#495057">and maps values to global standards (MIABIS, NCIT, SNOMED CT)</text>
+  <rect x="625" y="425" width="700" height="102" rx="8" fill="#ffffff" stroke="#adb5bd" stroke-width="1.5"/>
+  <text x="645" y="453" font-size="16" font-weight="700" fill="#1971c2">4. AI-Driven Semantic Normalisation &amp; Ontology Mapping</text>
+  <text x="645" y="479" font-size="14" fill="#495057">LLM processes extracted attributes, handles local dialects/abbreviations,</text>
+  <text x="645" y="501" font-size="14" fill="#495057">and maps values to global standards (MIABIS, NCIT, SNOMED CT)</text>
 
-  <line x1="740" y1="392" x2="740" y2="409" stroke="#1971c2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="975" y1="527" x2="975" y2="545" stroke="#1971c2" stroke-width="2.5" marker-end="url(#arrow)"/>
 
   <!-- KROK 5: Patient Record Aggregation -->
-  <rect x="485" y="411" width="510" height="52" rx="5" fill="#ffffff" stroke="#adb5bd" stroke-width="1"/>
-  <text x="500" y="432" font-size="12" font-weight="700" fill="#1971c2">5. Patient Record Aggregation</text>
-  <text x="500" y="449" font-size="10.5" fill="#495057">Cross-source identity resolution to merge multimodal records per patient/sample</text>
+  <rect x="625" y="547" width="700" height="74" rx="8" fill="#ffffff" stroke="#adb5bd" stroke-width="1.5"/>
+  <text x="645" y="575" font-size="16" font-weight="700" fill="#1971c2">5. Patient Record Aggregation</text>
+  <text x="645" y="601" font-size="14" fill="#495057">Cross-source identity resolution to merge multimodal records per patient/sample</text>
 
-  <line x1="740" y1="463" x2="740" y2="480" stroke="#1971c2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="975" y1="621" x2="975" y2="639" stroke="#1971c2" stroke-width="2.5" marker-end="url(#arrow)"/>
 
   <!-- KROK 6: Patient Record Pseudonymisation -->
-  <rect x="485" y="482" width="510" height="52" rx="5" fill="#ffffff" stroke="#adb5bd" stroke-width="1"/>
-  <text x="500" y="503" font-size="12" font-weight="700" fill="#1971c2">6. Patient Record Pseudonymisation</text>
-  <text x="500" y="520" font-size="10.5" fill="#495057">Assigns pseudo-identifier per each record within each module of metadata schema</text>
+  <rect x="625" y="641" width="700" height="74" rx="8" fill="#ffffff" stroke="#adb5bd" stroke-width="1.5"/>
+  <text x="645" y="669" font-size="16" font-weight="700" fill="#1971c2">6. Patient Record Pseudonymisation</text>
+  <text x="645" y="695" font-size="14" fill="#495057">Assigns pseudo-identifier per each record within each module of metadata schema</text>
 
-  <line x1="740" y1="534" x2="740" y2="558" stroke="#1971c2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="975" y1="715" x2="975" y2="741" stroke="#1971c2" stroke-width="2.5" marker-end="url(#arrow)"/>
 
-  <!-- KROK 7: Validated Harmonised Package -->
-  <rect x="540" y="560" width="400" height="38" rx="5" fill="#d3f9d8" stroke="#51cf66" stroke-width="1.5"/>
-  <text x="560" y="584" font-size="11.5" font-weight="700" fill="#2b8a3e">✓ Export: Harmonised &amp; Anonymised Metadata Record</text>
+  <!-- KROK 7: Export: Harmonised Record -->
+  <rect x="685" y="743" width="580" height="54" rx="8" fill="#d3f9d8" stroke="#51cf66" stroke-width="2"/>
+  <text x="710" y="776" font-size="16" font-weight="700" fill="#2b8a3e">✓ Export: Harmonised &amp; Anonymised Metadata Record</text>
 
   <!-- VÄZBA NA SCHÉMU: guided by (z BBDIMS dole do AI krokov) -->
-  <path d="M 1030 710 L 1030 355 L 997 355" fill="none" stroke="#d9480f" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrow-orange)"/>
-  <path d="M 1030 355 L 1030 191 L 997 191" fill="none" stroke="#d9480f" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrow-orange)"/>
-  <rect x="1010" y="255" width="85" height="20" rx="3" fill="#fff4e6" stroke="#ffd8a8" stroke-width="1"/>
-  <text x="1016" y="269" font-size="10" font-weight="700" fill="#d9480f">guides schema</text>
+  <path d="M 1395 940 L 1395 476 L 1327 476" fill="none" stroke="#d9480f" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-orange)"/>
+  <path d="M 1395 476 L 1395 256 L 1327 256" fill="none" stroke="#d9480f" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-orange)"/>
+  <rect x="1360" y="340" width="130" height="32" rx="6" fill="#fff4e6" stroke="#ffd8a8" stroke-width="1.5"/>
+  <text x="1370" y="361" font-size="13.5" font-weight="700" fill="#d9480f">guides schema</text>
 
   <!-- EXPORT VON: do Katalógu -->
-  <path d="M 740 598 L 740 705" fill="none" stroke="#2b8a3e" stroke-width="3" marker-end="url(#arrow-green)"/>
-  <rect x="750" y="635" width="140" height="22" rx="4" fill="#ebfbee" stroke="#b2f2bb" stroke-width="1"/>
-  <text x="758" y="650" font-size="11" font-weight="700" fill="#2b8a3e">publishes metadata</text>
+  <path d="M 975 797 L 975 942" fill="none" stroke="#2b8a3e" stroke-width="4" marker-end="url(#arrow-green)"/>
+  <rect x="990" y="845" width="195" height="34" rx="6" fill="#ebfbee" stroke="#b2f2bb" stroke-width="1.5"/>
+  <text x="1002" y="868" font-size="14.5" font-weight="700" fill="#2b8a3e">publishes metadata</text>
 
   <!-- 4. CENTRAL LAYER -->
-  <text x="20" y="705" font-size="13" font-weight="700" fill="#495057" letter-spacing="0.5">☁️ CENTRAL DISCOVERY LAYER</text>
+  <text x="25" y="935" font-size="18" font-weight="700" fill="#495057" letter-spacing="0.5">☁️ CENTRAL DISCOVERY LAYER</text>
 
   <!-- data.bbmri.cz Katalóg -->
-  <rect x="360" y="715" width="450" height="115" rx="8" fill="#f4fce3" stroke="#74b816" stroke-width="2"/>
-  <text x="380" y="745" font-size="14" font-weight="700" fill="#2b8a3e">🌐 data.bbmri.cz Metadata Catalogue</text>
-  <line x1="380" y1="755" x2="790" y2="755" stroke="#d8f5a2" stroke-width="1"/>
-  <text x="380" y="777" font-size="11.5" fill="#2f9e44">• Cohort discovery query engine</text>
-  <text x="380" y="798" font-size="11.5" fill="#2f9e44">• Cross-modal search (Clinical + NGS + Radio + WSI)</text>
+  <rect x="470" y="950" width="580" height="155" rx="12" fill="#f4fce3" stroke="#74b816" stroke-width="2.5"/>
+  <text x="500" y="990" font-size="19" font-weight="700" fill="#2b8a3e">🌐 data.bbmri.cz Metadata Catalogue</text>
+  <line x1="500" y1="1005" x2="1020" y2="1005" stroke="#d8f5a2" stroke-width="1.5"/>
+  <text x="500" y="1035" font-size="15" fill="#2f9e44">• Cohort discovery query engine</text>
+  <text x="500" y="1065" font-size="15" fill="#2f9e44">• Cross-modal search (Clinical + NGS + Radio + WSI)</text>
 
   <!-- BBDIMS Schéma -->
-  <rect x="830" y="715" width="350" height="115" rx="8" fill="#fff4e6" stroke="#fd7e14" stroke-width="2"/>
-  <text x="845" y="743" font-size="13" font-weight="700" fill="#d9480f">📑 BBDIMS</text>
-  <text x="845" y="759" font-size="9.8" font-weight="600" fill="#a61e4d">(Biobank Biosample and Data Integration Metadata Schema)</text>
-  <line x1="845" y1="767" x2="1165" y2="767" stroke="#ffe8cc" stroke-width="1"/>
-  <text x="845" y="785" font-size="10.5" fill="#d9480f">• Ontologies: MIABIS, NCIT, SNOMED CT</text>
-  <text x="845" y="804" font-size="10.5" fill="#d9480f">• Clinical, Radio, WSI, Seq data</text>
+  <rect x="1080" y="950" width="445" height="155" rx="12" fill="#fff4e6" stroke="#fd7e14" stroke-width="2.5"/>
+  <text x="1105" y="988" font-size="18" font-weight="700" fill="#d9480f">📑 BBDIMS</text>
+  <text x="1105" y="1010" font-size="13" font-weight="600" fill="#a61e4d">(Biobank Biosample and Data Integration Metadata Schema)</text>
+  <line x1="1105" y1="1020" x2="1495" y2="1020" stroke="#ffe8cc" stroke-width="1.5"/>
+  <text x="1105" y="1047" font-size="14.5" fill="#d9480f">• Ontologies: MIABIS, NCIT, SNOMED CT</text>
+  <text x="1105" y="1073" font-size="14.5" fill="#d9480f">• Clinical, Radio, WSI, Seq data</text>
 </svg>
