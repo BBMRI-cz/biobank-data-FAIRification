@@ -4,4 +4,8 @@ An end-to-end framework for multimodal biobank data FAIRification (clinical, NGS
 
 The Engine is designed around a **privacy-by-design, federated architecture**. Instead of exporting sensitive patient data outside the hospital perimeter, a turnkey Dockerised appliance is deployed within the local biobank network. It connects locally to raw data, executes AI-assisted extraction and ontology grounding on-premise, and securely pushes harmonised metadata records to the national catalogue.
 
+## Overall Architecture
 ![Biobank Metadata Orchestration Engine Architecture](architecture-metadata-orchestration-engine.svg)
+
+## AI-Driven Tools
+![AI-Driven Metadata Extraction and Ontology Mapping Tools](AI-tools-diagram.svg)
